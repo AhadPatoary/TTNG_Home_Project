@@ -1,0 +1,38 @@
+Sign into user (staff or member)
+
+staff
+-----
+Frontend: import journal into database
+Backend: run query to gather invoice information
+Backend: run query to gather member information
+Middleware: populate dialoge box from invoice query
+Frontend: user selects members for invoice output
+Frontend:  execute invoice generation
+Backend: create invoice from both invoice and member queries
+Backend: output invoices onto server for archive backup
+
+member
+------
+Frontend: sees a list of all invoices generates
+Frontend: able to filter invoices based on year and month
+
+supervisors
+-----------
++ Able to do all things staff can do
++ Able to create and remove staff + members
++ Able to view all logs of invoices
+
+Database
+--------
++ Staff Table
++ Supervisor Table
++ Different Table for each master company
++ Member Table
++ Encrypted passwords
+
+
+
+
+
+
+
