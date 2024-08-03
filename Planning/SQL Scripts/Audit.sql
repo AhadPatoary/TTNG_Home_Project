@@ -4,8 +4,8 @@ CREATE TABLE Audit
     AuditDate Date,
     AuditTime Time,
     StatementID INT,
-    StaffID INT
-    PRIMARY KEY (AuditID)
+    StaffID INT,
+    PRIMARY KEY (AuditID),
     FOREIGN KEY (StatementID) REFERENCES Statement (StatementID),
     FOREIGN KEY (StaffID) REFERENCES Staff (StaffID)
 );
