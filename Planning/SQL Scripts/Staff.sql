@@ -1,6 +1,6 @@
-CREATE TABLE Member
+CREATE TABLE Staff
 (
-    MemberID INT,
+    StaffID INT,
     firstName VARCHAR(20),
     lastName VARCHAR(30),
     Email VARCHAR(50),
